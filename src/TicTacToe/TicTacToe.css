@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+table td {
+  border: 2px solid rgb(209, 209, 209);
+  width: 100px;
+  height: 100px;
+  color: aqua;
+  font-size: 25px;
+}
+
+button {
+  background: aqua;
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  color: rgb(37, 37, 37);
+  position: relative;
+  top: 10px;
+}
+
+h1 {
+  color: rgb(209, 209, 209);
+  text-align: center;
+}
+
+p {
+  color: rgb(209, 209, 209);
+  text-align: center;
+  position: relative;
+  top: 10px;
+}
